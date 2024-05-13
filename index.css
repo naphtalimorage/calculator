@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+}
+
+#calculator{
+    max-width: 500px;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 50px;
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    background-color: hsl(0, 0%, 30%);
+    border: none;
+    align-items: self-end;
+}
+
+#keys{
+
+    padding: 25px;
+    background-color: hsl(0, 0%, 10%);
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+    border: none;
+}
+
+button:active{
+    background-color: hsl(0, 0%, 20%); 
+}
+
+.oper-color{
+    background-color: hsl(0, 0%, 10%);
+    color: green;
+}
+
+.opera-color{
+    background-color: green;
+}
+
+.opera-color:active{
+    background-color: hsl(101, 99%, 36%);
+}
