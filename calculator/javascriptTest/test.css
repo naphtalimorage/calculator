@@ -1,0 +1,31 @@
+.color-box h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 12px;
+    width: 20vw;
+    padding: 10px;
+    font-size: large;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
