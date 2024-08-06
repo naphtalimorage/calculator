@@ -1,0 +1,22 @@
+/* styles.css */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Make sure the background is behind other content */
+    animation: animateBackground 20s infinite linear; /* Animation properties */
+    /* Replace the background property with your desired background style */
+    background: linear-gradient(to bottom, #ff9900, #ff6600); /* Example gradient background */
+  }
+  
+  @keyframes animateBackground {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  

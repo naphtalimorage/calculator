@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Login</title>
+<style>
+form{
+    width: 300px;
+    text-align: center;
+} 
+
+h1{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 280px;
+}
+
+p{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 15px;
+} 
+
+ form input{
+    border-radius: 6px;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 4px;
+    outline: none;
+    margin-left: 150px;
+}
+
+form label{
+    display: flex;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 150px;
+}
+
+ input[ type="button"]{
+    background-color: aqua;
+    width: 120px;
+    height: 30px;
+    margin-top: 4px;
+    font-size: 12px; 
+    margin-left: 240px;
+}
+
+body{
+    background: url('wallpaper.jpg') no-repeat;
+    background-size: cover;
+}
+fieldset{
+    background-color: green;
+    border: transparent solid;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.login-box{
+    width: 300px;
+    text-align: center;
+    margin-left: 330px;
+}
+
+
+
+</style>
+<body>
+<div class="login-box">
+    <fieldset>
+        <h1>Login</h1>
+        <form>
+            <label for="regno">Reg-number</label>
+            <input type="email" id="regno" placeholder=""><br>
+            <label for="password">Password</label>
+            <input type="password" id="password"><br>
+            <br>
+            <input type="button" value="submit">
+        </form>
+    <p class="para-2">Don't have no account? <a href="signup.html">Sign Up Here</a></p>
+    </fieldset>
+</div>
+</body>
+</html>

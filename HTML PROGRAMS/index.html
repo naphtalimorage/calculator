@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>user form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <fieldset>
+            <legend>USER FORM</legend>
+            <div class="userform-box"> 
+            <form method="post" action="connect.php">
+            <ul type="disc">
+            <div class="container-1">
+                <li><label for="firstname">FIRST NAME</label>
+                <input style="cursor: pointer;" type="text" name="firstname" id="firstname"></li>
+                <li><label for="lastname">LAST NAME</label>
+                <input style="cursor: pointer;" type="text" name="firstname" id="lastname"></li>
+            </div>
+            <div class="container-8">
+                <li><label for="gender">GENDER</label>
+                <input style="cursor: pointer;" type="radio" id="gender" name="gender" value="M">
+                <label for="male">Male</label>
+                <input style="cursor: pointer;" type="radio" id="gender" name="gender" value="F">
+                <label for="female">Female</label>  
+            </div>
+            <div class="container-2">
+                <p>
+                    <li><label>ADDRESS</label>
+                <textarea style="cursor: pointer;" id="address" rows="3" cols="40">
+                    
+                </textarea></li>
+                </p>
+            </div>
+            <div class="container-3">
+                <li><label for="D.O.B">D.O.B</label>
+                <select style="cursor: pointer;" id="dropdown" name="dropdown-1">
+                    <option value="january" id="dob" selected>jan</option>
+                    <option value="february" id="dob">feb</option>
+                    <option value="march" id="dob">march</option>
+                    <option value="april" id="dob">april</option>
+                    <option value="may" id="dob">may</option>
+                    <option value="june" id="dob">june</ption>
+                    <option value="july" id="dob">july</option>
+                    <option value="aug" id="dob">aug</option>
+                    <option value="sep" id="dob">sep</option>
+                    <option value="oct" id="dob">oct</option>
+                    <option value="nov" id="dob">nov</option>
+                    <option value="dec" id="dob">dec</option></li>
+                </select>
+                <select style="cursor: pointer;"  id="dropdown" name="dropdown-2">
+                    <option value="1" id="dob" selected>1</option>
+                    <option value="2"id="dob">2</option>
+                    <option value="3"id="dob">3</option>
+                    <option value="4"id="dob">4</option>
+                    <option value="5"id="dob">5</option>
+                    <option value="6"id="dob">6</ption>
+                    <option value="7"id="dob">7</option>
+                    <option value="8"id="dob">8</option>
+                    <option value="9"id="dob">9</option>
+                    <option value="10"id="dob">10</option>
+                    <option value="11"id="dob">11</option>
+                    <option value="12"id="dob">12</option>
+                    <option value="13"id="dob">13</option>
+                    <option value="14"id="dob">14</option>
+                    <option value="15"id="dob">15</option>
+                    <option value="16"id="dob">16</option>
+                    <option value="17"id="dob">17</option>
+                    <option value="18"id="dob">18</ption>
+                    <option value="19"id="dob">19</option>
+                    <option value="20"id="dob">20</option>
+                    <option value="21"id="dob">21</option>
+                    <option value="22"id="dob">22</option>
+                    <option value="23"id="dob">23</option>
+                    <option value="24"id="dob">24</option>
+                    <option value="25"id="dob">25</option>
+                    <option value="26"id="dob">26</option>
+                    <option value="27"id="dob">27</option>
+                    <option value="28"id="dob">28</option>
+                    <option value="29"id="dob">29</option>
+                    <option value="28"id="dob">30</option>
+                    <option value="31"id="dob">31</option>
+                </select>
+                <select style="cursor: pointer;"  id="dropdown" name="dropdown-3">
+                    <option value="1990"id="dob">1990</option>
+                    <option value="1991"id="dob">1991</option>
+                    <option value="1992"id="dob">1992</option>
+                    <option value="1993"id="dob">1993</option>
+                    <option value="1994"id="dob">1994</option>
+                    <option value="1995"id="dob">1995</ption>
+                    <option value="1996"id="dob">1996</option>
+                    <option value="1997"id="dob">1997</option>
+                    <option value="1998"id="dob">1998</option>
+                    <option value="1999"id="dob">1999</option>
+                    <option value="2000"id="dob">2000</option>
+                    <option value="2001"id="dob">2001</option>
+                    <option value="2002"id="dob">2002</option>
+                    <option value="2003"id="dob">2003</option>
+                    <option value="2004"id="dob">2004</option>
+                    <option value="2005"id="dob">2005</option>
+                    <option value="2006"id="dob">2006</option>
+                    <option value="2007"id="dob">2007</option>
+                    <option value="2008"id="dob">2008</option>
+                    <option value="2009"id="dob">2009</option>
+                    <option value="2010"id="dob">2010</option>
+                </select>    
+            </div>
+            <div class="container-4">
+                <li><label for="games">SELECT GAMES</label>
+                <input style="cursor: pointer;"   type="checkbox" id="games" name="hockey" value="H">
+                <label>hockey</label>
+                <input style="cursor: pointer;" type="checkbox" id="games" name="football" value="F">
+                <label>football</label>
+                <input style="cursor: pointer;" type="checkbox" id="games" name="cricket" value="C">
+                <label>cricket</label>
+                <input style="cursor: pointer;" type="checkbox" id="games" name="volleyball" value="V">
+                <label>volleyball</label></li>
+            </div>
+            <div class="container-5">
+                <li><label for="marital">MARITAL STATUS</label>
+                <input style="cursor: pointer;" type="radio" id="marital" name="status" value="P">
+                <label>Married</label>
+                <input style="cursor: pointer;" type="radio" id="marital" name="status" value="N">
+                <label>Single</label>
+            </div>
+            <div class="container-6">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            <div class="container-7">
+                <input style="cursor: pointer;"type="checkbox" name="accept" id="accept">
+                <label for="accept">I accept the terms and conditions</label>
+            </div>
+            </ul>
+            </form>
+            </div>
+        </fieldset>
+</body>
+</html>
